@@ -3,12 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola mundo!</title>
+    <title>Razonamiento Cuantitativo 1</title>
+    <meta name="description"content="Herramienta educativa para clasificar número en conjuntos (naturales, enteros, racionales) y resolver operaciones aritmeticas con explicaciones paso a paso.">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti inventore perspiciatis natus distinctio consequatur reiciendis 
-        quo perferendis corporis a delectus, ex exercitationem totam! Illo provident mollitia, voluptate exercitationem perferendis quia?
-    </p>
+    <div class="principal">
+        <nav class="opciones-nav" role="tablist">
+            <button class="tab-btn" role="tab">
+                <span class="nav-tab-text">Conjuntos de números</span>
+            </button>
+            <button class="tab-btn" role="tab">
+                <span class="nav-tab-text">Operaciones aritmeticas</span>
+            </button>
+            <button class="tab-btn" role="tab">
+                <span class="nav-tab-text">:D</span>
+            </button>
+        </nav>
+
+        <section id="panel-clasificar" class="tab-panel active">
+            <div class="card">
+                <h2>Clasificador de Conjuntos Números</h2>
+                <p>Ingresa un número y selecciona un conjunto para verificar si pertenece a él.</p>
+            </div>
+            <input type="text" id="numero-input">
+
+            <select id="select-conjuntos">
+                <option value="naturales">Naturales</option>
+                <option value="enteros">Enteros</option>
+                <option value="racionales">Racionales</option>
+            </select>    
+
+            
+        </section>
+
+        <h1>HOLA MUNDO</h1>
+        <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti inventore perspiciatis natus distinctio consequatur reiciendis quo perferendis corporis a delectus, ex exercitationem totam! Illo provident mollitia, voluptate exercitationem perferendis quia?
+        <script>
+            alert("Hola")
+        </script>
+        </p>
+    </div>    
 </body>
 </html>
